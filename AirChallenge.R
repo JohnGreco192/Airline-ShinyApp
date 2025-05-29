@@ -1,4 +1,3 @@
-# Script by John Greco - Principal Data Analyst -(Software) applicant at CapitalOne
 
 # install.packages(tidyverse)
 # install.packages(DBI)
@@ -17,6 +16,7 @@ library(scales)
 library(rmarkdown)
 
 # --- 1. Get Data ---
+#Masked#
 
 ## 1.2 Define URL, Download, Unzip
 download.file(zip_url, "data.zip", mode = "wb")
