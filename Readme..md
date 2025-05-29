@@ -16,7 +16,7 @@ This project provides strategic insights for optimizing airline route investment
 * **Financial Modeling:** Calculates detailed revenue (ticket, baggage) and cost (distance, airport, delay) components to derive route profitability.
 * **Strategic Metrics:** Develops key performance indicators such as "Profit per Mile," "Profit per Flight," "Breakeven Flights," and a "Route Score" for investment prioritization.
 * **Interactive Visualizations:** Offers multiple interactive `plotly` and `ggplot2` visualizations within a Shiny UI to explore:
-    * Overall profitability trends.
+    * Overall profitability tarends.
     * Detailed revenue/cost breakdowns for top routes.
     * Sankey diagrams for individual route financial flows.
     * Recommended routes based on a weighted scoring model.
