@@ -16,7 +16,12 @@ library(scales)
 library(rmarkdown)
 
 # --- 1. Get Data ---
-#Masked#
+
+# Data source: Bureau of Transportation Statistics (BTS) airline on-time performance data (Q1 2019)
+# Download from: https://www.transtats.bts.gov/DL_SelectFields.aspx
+# Required files: Flights.csv, Tickets.csv, Airport_Codes.csv
+# Set zip_url to the URL or local path of the zipped dataset
+zip_url <- "YOUR_DATA_URL_HERE"  # Replace with your BTS data download URL
 
 ## 1.2 Define URL, Download, Unzip
 download.file(zip_url, "data.zip", mode = "wb")
@@ -366,7 +371,7 @@ report_content <- c(
   "",
   "**Enhancements:**",
   "",
-  "* **Route Score Optimization:** Guided by the CRISP-DM analytics lifecycle, we propose gaterhing stakeholder feedback to refine the weighting of profitability and delay factors within the Route Score.",
+  "* **Route Score Optimization:** Guided by the CRISP-DM analytics lifecycle, we propose gathering stakeholder feedback to refine the weighting of profitability and delay factors within the Route Score.",
   "",
   "* **Sensitivity Analysis:** Perform sensitivity analysis to understand how changes in the Route Score weights impact route recommendations, informing future adjustments.",
   "",
